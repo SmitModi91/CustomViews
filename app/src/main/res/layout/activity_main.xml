@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smit.customview.MainActivity">
+
+    <com.smit.customlayouts.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/Login"
+        app:textCornerRadius="0"
+        app:textCornerRoundColor="@color/colorAccent"
+        app:textCornerRoundWidth="0"
+        app:textcolor="@color/colorPrimary"
+        app:textsingleline="true"
+        app:textsize="38"
+        app:texttypeface="@string/typeface_bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <com.smit.customlayouts.CustomEditText
+            android:id="@+id/edtEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center|left"
+            android:hint="Enter User Name"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="true"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            app:editsingleLine="true"
+            app:edittextColorHint="@color/colorAccent"
+            app:edittextCornerRadius="150"
+            app:edittextCornerRoundColor="@color/colorAccent"
+            app:edittextCornerRoundWidth="2"
+            app:edittextcolor="@color/colorPrimary"
+            app:edittextsize="18"
+            app:edittypeface="@string/typeface" />
+
+
+        <com.smit.customlayouts.CustomEditText
+            android:id="@+id/edtPasswrordName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+
+            android:gravity="center|left"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            app:editsingleLine="true"
+            app:edittextColorHint="@color/colorAccent"
+            app:edittextCornerRadius="150"
+            app:edittextCornerRoundColor="@color/colorAccent"
+            app:edittextCornerRoundWidth="2"
+            app:edittextcolor="@color/colorPrimary"
+            app:edittextsize="18"
+            app:edittypeface="@string/typeface" />
+
+
+        <com.smit.customlayouts.CustomButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Submit"
+
+            android:textStyle="bold"
+            app:buttonCornerRadius="150"
+            app:buttonCornerRoundColor="@color/colorAccent"
+            app:buttonCornerRoundWidth="2"
+            app:buttonbackround="@color/colorPrimaryDark"
+            app:buttonsingleLine="true"
+            app:buttontextcolor="@android:color/white"
+            app:buttontextsize="18"
+            app:buttontypeface="@string/typeface_bold" />
+
+
+
+
+
+
+
+
+        <!--<com.smit.customlayouts.CustomEditText-->
+            <!--android:id="@+id/edttetx"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="10dp"-->
+
+            <!--android:inputType="textMultiLine"-->
+            <!--android:layout_height="150dp" />-->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CustomTextView">
+        <attr name="textsize" format="integer" />
+        <attr name="textcolor" format="color" />
+        <attr name="texttypeface" format="string" />
+        <attr name="textsingleline" format="boolean"/>
+        <attr name="textbackround" format="color"/>
+        <attr name="textCornerRoundWidth" format="integer" />
+        <attr name="textCornerRoundColor" format="color" />
+        <attr name="textCornerRadius" format="integer"/>
+        <attr name="text" format="string"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomButton">
+
+        <attr name="buttonsingleLine" format="boolean" />
+        <attr name="buttonbackround" format="color"/>
+        <attr name="buttontextcolor" format="color" />
+        <attr name="buttontypeface" format="string" />
+        <attr name="buttontextsize" format="integer" />
+
+        <attr name="buttonCornerRoundWidth" format="integer" />
+        <attr name="buttonCornerRoundColor" format="color" />
+        <attr name="buttonCornerRadius" format="integer"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+
+
+        <attr name="edittextColorHint" format="color"/>
+        <attr name="editsingleLine" format="boolean" />
+        <attr name="edittextcolor" format="color" />
+        <attr name="edittypeface" format="string" />
+        <attr name="edittextsize" format="integer" />
+        <attr name="edittextCornerRoundWidth" format="integer" />
+        <attr name="edittextCornerRoundColor" format="color" />
+        <attr name="edittextCornerRadius" format="integer"/>
+        <attr name="edittextbackround" format="color"/>
+
+    </declare-styleable>
+</resources>

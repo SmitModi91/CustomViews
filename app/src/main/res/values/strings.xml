@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomViewLayout</string>
+
+    <string name="typeface">fonts/Titillium-Regular_5.otf</string>
+    <string name="typeface_bold">fonts/Titillium-Semibold_5.otf</string>
+
+    <string name="Login"><u>Login</u></string>
+</resources>
